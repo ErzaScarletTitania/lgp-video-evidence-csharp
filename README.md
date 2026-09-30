@@ -1,4 +1,4 @@
-# g-connect-frame-extractor-opencv
+# LGP Video Evidence - C#
 
 C# OpenCV helper extracted from the G-Connect testing session workspace.
 
@@ -22,3 +22,10 @@ This console tool samples a recorded test-session video at fixed timestamps and 
 
 - `Program.cs`
 - `video-extractor.csproj`
+
+## Related projects
+
+- [LGP Video Evidence - PowerShell](https://github.com/ErzaScarletTitania/lgp-video-evidence-powershell): an alternative frame-extraction implementation using Windows media playback.
+- [LGP QA Orchestration](https://github.com/ErzaScarletTitania/lgp-qa-orchestration): a related architecture reference for evidence-based QA workflows.
+
+These are related projects, not package dependencies. This extractor keeps its own runtime and setup requirements.
